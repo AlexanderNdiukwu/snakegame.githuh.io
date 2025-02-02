@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body{
+    position: relative;
+    user-select: none;
+    background-color: black;
+}
+
+#progress {
+
+    width: 60px;
+    height: 30px;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    margin-left: 87%;
+}
+
+.container {
+    border: 10px solid white;
+    width: 80vw;
+    height: 600px;
+    margin: 10px auto;
+    /* position: relative; */
+  
+}
+
+#food{
+    width: 30px ;
+    height: 30px;
+    background-color: red;
+    /* display: none; */
+    /* position: absolute; */
+
+}
+.segment {
+    width: 30px;
+    height: 30px;
+    background-color: pink;
+    position: absolute;
+  }
+
+#snake {
+    width: 30px ;
+     height: 30px;
+    background-color: red;
+    position: absolute;
+    
+}
+#child{
+    width: 30px ;
+    height: 30px;
+   background-color: pink;
+   position: absolute;
+   /* margin: 20px; */
+}
+
+.control {
+
+    /* border: 2px solid red; */
+    color: white;
+    /* align-content: center; */
+    text-align: center;
+
+ 
+    /* position: relative; */
+}
+
+.pad {
+    border: 1px solid white;
+    height: 25px;
+    width: 90px;
+    margin: 2px;
+    position: relative;
+    /* margin-left:30%; */
+}
+.pad:hover{
+    border: 1px solid green;
+}
+.pad:nth-child(1) ,.pad:nth-child(3)  {
+    /* border: 1px solid red; */
+    margin-left:40%;
+
+}
+#pad1, #pad4{
+    margin-left: 43%;
+    
+}
+#pad1{
+    border-radius: 10px 10px 0px 0px ;
+}
+#pad2{
+    border-radius: 10px 0px 0px 10px ;
+}
+#pad3{
+    border-radius: 0px 10px 10px 0px ;
+}
+#pad4{
+    border-radius: 0px 0px 10px 10px ;
+}
+.flex{
+    display: flex;
+}
